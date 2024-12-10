@@ -1,0 +1,422 @@
+[
+  {
+    "type": "quant",
+    "title": "When I see someone treated unfairly, I feel bad for them.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-1.jpg",
+    "imageCaption": "Due to the Ukraine refugee crisis, around 14.6 million people will require humanitarian aid in 2024?",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I believe that people should take care of themselves and not worry about others.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-2.jpg",
+    "imageCaption": "Annually, over 1 billion people worldwide volunteer actively. ",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I believe it is important to help people in need.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-3.jpg",
+    "imageCaption": "During real-life conflicts, someone nearby steps up to help about 90% of the time.",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "Other people's misfortunes disturb me a great deal.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-4.jpg",
+    "imageCaption": "In 2022, 72% of the global adult population, comprising 4.2 billion people, altruistically contributed money, time or assistance to strangers.",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I feel hesitation when I need to help other people in difficult situations.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-5.jpg",
+    "imageCaption": "As per the 2022 World Happiness Report, 2021 saw a notable increase in volunteering, charitable donations, and acts of kindness towards strangers.",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 0, "description": "Strongly Agree" },
+      { "score": 1, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I often think about the welfare of others whom I don't know personally",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-6.jpg",
+    "imageCaption": "In 2023, the Philippines, despite having the 6th lowest Gross Domestic Product, achieved the highest 'Kindness Intent' score.",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I feel that if we engage more in social work we will be able to improve society for future generations",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-7.jpg",
+    "imageCaption": "Indonesia in 2023, maintained its lead on the World Giving Index for an impressive sixth consecutive year.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I rarely participate in serving my community or country",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-8.jpg",
+    "imageCaption": "Young people, aged 17 to 22, are at the forefront of volunteering, boasting a remarkable 50% engagement rate.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 0, "description": "Strongly Agree" },
+      { "score": 1, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I think that people should help one another without expecting to get paid or rewarded for it.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-9.jpg",
+    "imageCaption": "Amidst the COVID-19 crisis, there's been a positive change in attitudes toward helping. According to a Pew Research Center report, in 2018, 37% of Americans believed in general assistance. In a recent mid-March survey, this figure increased noticeably to 42%.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I think that we should be collectively responsible for everyone’s well-being.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-10.jpg",
+    "imageCaption": "According to a Santander study, 63% of people anticipate enhancing their well-being by 2026.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I think that we should all be responsible for improving the welfare of others beyond our immediate circle of friends and family.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-11.jpg",
+    "imageCaption": "81% of tech professionals believe it's crucial for CEOs to address significant societal issues.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I contribute to my community selflessly",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-12.jpg",
+    "imageCaption": "In the Selflessness Happiness Model study of 2017, harmony was identified as the key factor, explaining 86% of why selflessness correlates with happiness.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "Even if we all try, we cannot change things in our community.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-13.jpg",
+    "imageCaption": "According to Mapping Social Cohesion 2023, social cohesion has hit a record low in Australia. Declining to 79, the lowest recorded level since November 2020.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "We should all advocate for equality to ensure equal access to opportunities for everyone",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-14.jpg",
+    "imageCaption": "Workplace diversity, equity, and inclusion efforts are viewed positively by 56% of employed adults.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I find a lot of importance in creating a sense of mutual respect when i am serving others",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-15.jpg",
+    "imageCaption": "Inclusive representation of brands is being advocated for by 48% of Indians.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "If I could change one thing about society, it would be to achieve greater social justice",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-16.jpg",
+    "imageCaption": "In the 2023 Gender Gap Report, India rose eight spots to 127 out of 146 countries in gender parity, a notable improvement from its 2022 rank of 135.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "It is important to provide people with greater opportunities to participate in the decision-making processes of the government",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-17.jpg",
+    "imageCaption": "Nearly 46% of Indian youth is disinterested in politics.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "It is my responsibility to commit resources in ways that makes a difference in the community.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-18.jpg",
+    "imageCaption": "According to surveys, 68% of youth actively engaged in formal volunteering in Scotland, in 2022.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I don't reflect on community engagement activities to improve my understanding of social issues",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-19.jpg",
+    "imageCaption": "PwC's Global Youth Outlook shows that 60% of youth (ages 10-20) are actively involved or intend to support the UN's 17 Sustainable Development Goals.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I am updated with the information about any current public policies.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-20.jpg",
+    "imageCaption": "In an Ipsos report, 64% of urban Indians identified social media feeds as the main source of fake news. Paradoxically, 56% still prioritize social media as their primary news outlet.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I am aware of my ability to bring people together to address community needs",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-21.jpg",
+    "imageCaption": "A Gallup study reveals that 10% of the population are natural leaders, while an additional 20% exhibit leadership traits.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I lack the knowledge to meet my community's important needs",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-22.jpg",
+    "imageCaption": "The Civic Outlook of Young Adults in America survey of 2023 found that 80% of those with high civic knowledge intend to participate in at least one civic activity.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I am committed to working towards improving society and the lives of others through the work that I do",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-23.jpg",
+    "imageCaption": "A recent survey by the Society for Human Resource Management reveals that 94% of millennials aim to apply their skills to a cause.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I mindfully organize and initiate community engagement activities with others in order to make a difference in people's lives",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-24.jpg",
+    "imageCaption": "In India, corporate volunteering is booming, with 96% of companies finding that engaged employees participate in volunteering activities.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I think there is no sense in worrying about civil affairs; I have plenty of my own business to attend to",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-25.jpg",
+    "imageCaption": "A 2023 International Youth Day report warns that by 2030, over 60% of young people might lack essential skills for the green economy, posing a threat to societal well-being.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "As individuals, we hold responsibility towards our community and country",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-26.jpg",
+    "imageCaption": "Highlighting generational differences in assessing corporate responsibility, 41% of millennials scrutinize a company's social and environmental practices, compared to 27% of Gen X and 16% of baby boomers.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I believe my education doesn't hold me responsible to serve others. I should be concerned about myself only",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-27.jpg",
+    "imageCaption": "According to a TUFTS Circle youth survey, 76% of respondents believe that young people hold the power to change the country.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I believe that fighting inequalities and social injustices are only the responsibility of leaders, and public authorities",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-28.jpg",
+    "imageCaption": "As per Edelman Trust Barometer 2019, 76% think CEOs should proactively drive change instead of waiting for the government.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 1, "description": "Strongly Agree" },
+      { "score": 2, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 4, "description": "Disagree" },
+      { "score": 5, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "I am confident that, through community service, I can help in promoting equal opportunity for citizens",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-29.jpg",
+    "imageCaption": "In 2022, a study found that companies witness a 52% higher turnover among new employees who engage in purpose programs. ",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  },
+  {
+    "type": "quant",
+    "title": "In principle, I am willing to become actively involved in advocating environmental issues.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-1-30.jpg",
+    "imageCaption": "According to AFLAC CSR 2019 survey, 77% of consumers express favouring companies committed to improving the world when making purchasing decisions.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      { "score": 5, "description": "Strongly Agree" },
+      { "score": 4, "description": "Agree" },
+      { "score": 3, "description": "Neutral" },
+      { "score": 2, "description": "Disagree" },
+      { "score": 1, "description": "Strongly Disagree" }
+    ]
+  }
+]

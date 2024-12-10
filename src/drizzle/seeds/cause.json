@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Cause Novice",
+    "minScore": 30,
+    "maxScore": 60,
+    "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cause-novice.png",
+    "description": "Your purpose-driven heart and compassionate mindset propel you as a Cause Novice, fueled by the desire to instigate positive change within your community. Your newfound vigor in the realm of social impact is both enthusiastic and purposeful, amplifying your Civic Empathy quotient. As an eager learner, your aspiration to connect with fellow advocates will drive you to engage as a community member actively.",
+    "characteristics": [
+      {
+        "trait": "Curious",
+        "description": "You are motivated to gain an in-depth understanding of different causes and engage with efforts to make a difference in society.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/curious.png"
+      },
+      {
+        "trait": "Compassionate",
+        "description": "You have a natural compassion towards your community and have the ability to recognize the practice needed to make things better.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/compassionate.png"
+      },
+      {
+        "trait": "Adaptable",
+        "description": "You have the ability to adapt to different viewpoints, which can develop a problem-solving attitude in the future.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/adaptable.png"
+      },
+      {
+        "trait": "Supportive",
+        "description": "You have the potential to contribute to the community. You have a helpful motive that you embrace wholeheartedly. However, you would need to translate the motivation into action.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/supportive.png"
+      },
+      {
+        "trait": "Collaborative",
+        "description": "You have the aptitude to become a more active participant in the community. You want to become more prompt as an empathetic ally.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/collaborative.png"
+      }
+    ],
+    "advice": [
+      {
+        "section": "What Makes You Different",
+        "content": "Your untapped potential and desire to grow makes you distinct. Your inquisitive nature will generate new insights and an immensely positive impact."
+      },
+      {
+        "section": "In a Team ",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-1.png",
+        "content": "Your motivation to contribute to society is high, but you have limited experience in social engagement. With more practice and networking, you have the potential to become a valuable team player."
+      },
+      {
+        "section": "Potential Growth Zones",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-2.png",
+        "content": "You can create impact with guidance and mentorship. Your empathy for social issues is strong but you need help taking action."
+      },
+      {
+        "section": "How to go forward",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-3.png",
+        "content": "Engage, collaborate, and get mentored to become a Cause-moi-politan."
+      }
+    ]
+  },
+  {
+    "name": "Cause Influencer",
+    "minScore": 61,
+    "maxScore": 92,
+    "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cause-influencer.png",
+    "description": "You're a Cause Influencer with great social awareness and consideration for others. Your promptness to initiate change has the potential to inspire many, and while your Civic Empathy traits are developing, you have the opportunity to grow and enable growth in others.",
+    "characteristics": [
+      {
+        "trait": "Idea Generation",
+        "description": "You create innovative solutions and analyze them critically.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/idea-generation.png"
+      },
+      {
+        "trait": "Communication",
+        "description": "Your communication has the potential to create positive influence. You can relay your message to a vast audience.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/communication.png"
+      },
+      {
+        "trait": "Charismatic",
+        "description": "Your knowledge and positive attitude make you charismatic.  You can inspire people and influence their actions optimistically.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/charismatic.png"
+      },
+      {
+        "trait": "Resourceful Problem-Solver",
+        "description": "You have the ability to solve civic and social problems.  You can contribute with your many skills and talents. You have an aptitude to become growth enabler.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/resourceful-problem-solver.png"
+      },
+      {
+        "trait": "Leadership",
+        "description": "You are a prompt and able individual, you have the potentiato become an incredible team leader.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/leadership.png"
+      }
+    ],
+    "advice": [
+      {
+        "section": "What Makes You Different",
+        "content": "Your optimistic and creative communication skills make you stand out in Civic Empathy. You present fresh perspectives on social issues promptly with a deep commitment to social responsibility."
+      },
+      {
+        "section": "In a Team ",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-1.png",
+        "content": "Your unique blend of creativity and Civic Empathy brings a fresh and dynamic perspective. You can be a significant contributor to brainstorming sessions for finding solutions and innovative approaches."
+      },
+      {
+        "section": "Potential Growth Zones",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-2.png",
+        "content": "Direction and action in networking and advocacy can help your creativity create change."
+      },
+      {
+        "section": "How to go forward",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-3.png",
+        "content": "Guidance and support are key to navigating this journey. Advancing from a Cause influencer requires active participation, knowledge expansion, and mentorship. These steps help personal growth and generate community impact."
+      }
+    ]
+  },
+  {
+    "name": "Cause Advocate",
+    "minScore": 93,
+    "maxScore": 124,
+    "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cause-advocate.png",
+    "description": "You're a Cause Advocate with a deep understanding of civic issues and a drive to raise awareness. You prioritize others' needs and take impactful actions. You're a team player with a positive outlook and a strong belief system. You're an active advocate for Civic Empathy.",
+    "characteristics": [
+      {
+        "trait": "Empathetic",
+        "description": "Your empathy motivates you to contribute to the community. You can understand social issues and approach them with consideration and compassion.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/empathetic.png"
+      },
+      {
+        "trait": "Conflict Resolution",
+        "description": "Your critical analysis potential makes you able to resolve community conflicts. You have a collaborative attitude that has the potential to empower your advocacy and impact effort.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/conflict-resolution.png"
+      },
+      {
+        "trait": "Inclusive",
+        "description": "You believe in the strength of the community. Your empathy drives you to create opportunities for all and make a positive impact.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/inclusive.png"
+      },
+      {
+        "trait": "Determined",
+        "description": "You have a resilient attitude which keeps your optimism thriving. You have the ability to become more connected with people to seek resources as and when needed.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/determined.png"
+      },
+      {
+        "trait": "Tactful",
+        "description": "You can navigate social and civic issues with sensitivity and diplomacy. you have a prompt skill to handle challenges skillfully.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/tactful.png"
+      }
+    ],
+    "advice": [
+      {
+        "section": "What Makes You Different",
+        "content": "Your ability to bridge knowledge and practice, along with your motivated attitude, drives your growth."
+      },
+      {
+        "section": "In a Team",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-1.png",
+        "content": "Your inclusive nature and resourceful knowledge make you an effective team leader."
+      },
+      {
+        "section": "Potential Growth Zones",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-2.png",
+        "content": "Collaborate with stakeholders and engage with the community at a deeper level to achieve great impact."
+      },
+      {
+        "section": "How to go forward",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-3.png",
+        "content": "Transitioning to a Cause-moi-politan requires mentorship, networking, and active community participation to expand knowledge and skills, creating a sustainable impact."
+      }
+    ]
+  },
+  {
+    "name": "Cause Ambassador",
+    "minScore": 125,
+    "maxScore": 156,
+    "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cause-ambassador.png",
+    "description": "You are a Cause Ambassador, prompt in resolving social issues for societal development. Your path extends beyond civic duty to practice.",
+    "characteristics": [
+      {
+        "trait": "Proactive",
+        "description": "You are motivated to learn ways and find solutions to problems in your community.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/proactive.png"
+      },
+      {
+        "trait": "Passionate",
+        "description": "Your passion and commitment to initiate change motivates you and others to support your cause.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/passionate.png"
+      },
+      {
+        "trait": "Cooperative",
+        "description": "You can build networks for social impact with influencers, ambassadors, and NGOs.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cooperative.png"
+      },
+      {
+        "trait": "Caring",
+        "description": "You care for others and build strong relationships. You understand how people feel.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/caring.png"
+      },
+      {
+        "trait": "Visionary",
+        "description": "You're a creative problem-solver who takes action to address societal issues and assess community needs.",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/visionary.png"
+      }
+    ],
+    "advice": [
+      {
+        "section": "What Makes You Different",
+        "content": "You excel at combining kindness, altruism, righteousness, mindfulness, and authenticity in your strategy for social change. Your approach inspires significant and long-lasting impact."
+      },
+      {
+        "section": "In a Team",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-1.png",
+        "content": "You inspire critical analysis of societal issues while promoting kindness and inclusivity within your team."
+      },
+      {
+        "section": "Potential Growth Zones",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-2.png",
+        "content": "To be a successful cause ambassador, develop excellent communication skills and foster cooperative relationships to overcome challenges and opposing viewpoints."
+      },
+      {
+        "section": "How to go forward",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-3.png",
+        "content": "Success in this endeavour requires an approach that is both empowering and supportive. Aim high for yourself, actively seek out resources to advance your knowledge, and effectively share your wisdom with others. Remember to support your efforts by highlighting the results of your work and recognising your accomplishments along the road."
+      }
+    ]
+  },
+  {
+    "name": "Cause-moi-politan",
+    "minScore": 157,
+    "maxScore": 185,
+    "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/cause-moi-politan.png",
+    "description": "You are a Cause-moi-politan. You work towards your cause by sharing your ideas, expertise, and knowledge within your community. Introspection and self-reflection are your go-to resources. You are a trailblazer for change, committed to improving the world one thoughtful action at a time.",
+    "characteristics": [
+      {
+        "trait": "Committed",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/commited.png",
+        "description": "You are driven to promote the well-being of individuals and society."
+      },
+      {
+        "trait": "Authentic",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/authentic.png",
+        "description": "Being true to yourself and others is the fundamental principle of your life that prompts you to take effective action."
+      },
+      {
+        "trait": "Perceptive",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/perceptive.png",
+        "description": "You have an empathetic perception which prompts you to identify societal issues and craft innovative solutions."
+      },
+      {
+        "trait": "Perseverant",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/perseverant.png",
+        "description": "You make meaningful progress and put things into practice by being an efficient problem solver, leveraging your skills and resources."
+      },
+      {
+        "trait": "Resourceful",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/resourceful.png",
+        "description": "In order to overcome challenges, you rely on your knowledge, networks, and team collective wisdom, always considering the well-being of those affected."
+      }
+    ],
+    "advice": [
+      {
+        "section": "What Makes You Different",
+        "content": "You have a unique ability to turn ideas into action with a sincere and empathetic approach that inspires others to join you in pursuing a common goal."
+      },
+      {
+        "section": "In a Team",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-1.png",
+        "content": "As a member of a team, foster a diverse and inclusive environment, making sure that everyone's voice and opinion are acknowledged."
+      },
+      {
+        "section": "Potential Growth Zones",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-2.png",
+        "content": "Be holistic in your approach to social impact and inspire leadership for forward-thinking attitudes."
+      },
+      {
+        "section": "How to manage",
+        "imgUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/cause-i/advice-3.png",
+        "content": "Seek feedback often, lead with new ideas, empower others to lead change, and foster a culture of authenticity, creativity, and dedication to social impact."
+      }
+    ]
+  }
+]

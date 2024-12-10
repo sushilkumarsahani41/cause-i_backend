@@ -1,0 +1,224 @@
+[
+  {
+    "type": "mcq",
+    "title": "What motivates individuals to perform acts of kindness?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-1.jpg",
+    "imageCaption": "As per the Kindness Index, 419,893 Indians engaged in their first online charity effort in 2023.",
+    "karmaAttribute": "kindness",
+    "options": [
+      { "score": 0, "description": "To be socially accepted" },
+      { "score": 0, "description": "To receive kindness by being kind" },
+      { "score": 1, "description": "To genuinely help others" },
+      {
+        "score": 0,
+        "description": "To let go of their past by doing good acts"
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "situation": "You are a high school teacher,Vishal, a dedicated student, has been absent for a week due to a family emergency. You're concerned about his ability to catch up with schoolwork.",
+    "title": "As a teacher, what would you do to help Vishal?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-2.jpg",
+    "imageCaption": "People who are consistently kind have 23% lower cortisol (the stress hormone) levels and age at half the rate of the general population.",
+    "karmaAttribute": "kindness",
+    "options": [
+      {
+        "score": 0,
+        "description": "Decide not to intervene and wait for Vishal to come back to school. It is his responsibility to catch up with his schoolwork."
+      },
+      {
+        "score": 0,
+        "description": "Reach out to Vishal through email or a phone call, expressing concern for his well-being and offering support."
+      },
+      {
+        "score": 0,
+        "description": " Ask Vishal's caregivers to check-in on him and offer any support if they can. You also ask if there is anything you can do to help him catch up with his school work."
+      },
+      {
+        "score": 1,
+        "description": "You arrange to meet with Vishal when he returns to school (+ extra support) to discuss his absence and how he can catch up with his schoolwork."
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "title": "What could be the motivation behind your selfless acts?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-3.jpg",
+    "imageCaption": "In 2023, a record-breaking 4.2 billion people worldwide reported helping strangers and supporting others, marking the highest score since 2009.",
+    "karmaAttribute": "altruism",
+    "options": [
+      { "score": 0, "description": "You want to do good, and receive good" },
+      { "score": 0, "description": "To help others" },
+      {
+        "score": 1,
+        "description": "Talk to the struggling colleague to offer support and encouragement."
+      },
+      { "score": 0, "description": "To obey social pressure & expectations" }
+    ]
+  },
+  {
+    "type": "mcq",
+    "situation": "You have been collaborating with a group of your colleagues to work on a project for past one month. One of your colleagues, who has been struggling with personal issues, has not been contributing as much as the rest. Your team leader has expressed frustration with this colleague and suggested that they be removed from the project.",
+    "title": "As a colleague, what would you do in the above-mentioned situation?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-4.jpg",
+    "imageCaption": "According to the 2023 Worldwide Work-Life Balance Index, 54% of British workers would willingly take a lower-paid job in return for an improved work-life balance.",
+    "karmaAttribute": "altruism",
+    "options": [
+      {
+        "score": 0,
+        "description": "Agree with the team leader and recommend that the colleague be removed from the project/ Recommend that the colleague be taken off the project in agreement with the team leader."
+      },
+      { "score": 0, "description": "Talk to the struggling colleague." },
+      {
+        "score": 0,
+        "description": "Let the team leader handle the situation, as they are more capable of doing so."
+      },
+      {
+        "score": 1,
+        "description": "Offer to take on some of the struggling colleague's work, and provide support and encouragement. Offer to help them catch up on their work if needed to ensure that the project is completed on time."
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "title": "How does ethical behaviour contribute to social harmony?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-5.jpg",
+    "imageCaption": "Based on the 2023 Business Ethics Survey, 36% of emerging talent value companies taking ethical action, while only 23% of business leaders share the same perspective on addressing ethical dilemmas.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      {
+        "score": 0,
+        "description": "By addressing social issues and promoting inclusivity"
+      },
+      {
+        "score": 0,
+        "description": "Through balancing personal interests with the well-being of the community"
+      },
+      {
+        "score": 1,
+        "description": "By fostering open communication and understanding among diverse groups"
+      },
+      { "score": 0, "description": "By prioritizing personal needs" }
+    ]
+  },
+  {
+    "type": "mcq",
+    "situation": "You are the HR manager of a reputed organization. You receive a complaint from a male employee about a promotion offered to a female. Despite equal qualifications, he believes this decision was solely based on gender.",
+    "title": "As an HR manager, what would you do to address the concern of the male employee?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-6.jpg",
+    "imageCaption": "The global gender gap score rose to 68.4% in 2023, up 0.3% from 2022. Progress suggests a 131-year wait for full gender parity, indicating a significant slowdown.",
+    "karmaAttribute": "righteousness",
+    "options": [
+      {
+        "score": 0,
+        "description": "Tell the male employee that the company has a commitment to diversity and that sometimes this means making difficult decisions, and that he should accept the decision and move on."
+      },
+      {
+        "score": 0,
+        "description": "Apologize to the male employee and offer him the promotion instead, even though the female employee is qualified and deserving of the promotion."
+      },
+      {
+        "score": 1,
+        "description": "Investigate the promotion decision to ensure that it was made based on qualifications and not gender, and take action if any bias is found."
+      },
+      {
+        "score": 0,
+        "description": "Tell the male employee that his moral beliefs are not aligned with the company's commitment to diversity and that he should reconsider his position on gender equality."
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "title": "How can individuals inculcate mindfulness in their communities?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-7.jpg",
+    "imageCaption": "In a survey among English-speaking adults, from 130 different countries in 2021, it was found that mindfulness was associated with lower perceived stress and higher work engagement.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      { "score": 0, "description": "Focusing on donations" },
+      {
+        "score": 0,
+        "description": "Gathering insights from your family and friends"
+      },
+      { "score": 1, "description": "By understanding the needs of society" },
+      { "score": 0, "description": "Adhering to governmental regulations" }
+    ]
+  },
+  {
+    "type": "mcq",
+    "situation": "You are a member of a community organization that is working towards improving public transportation in your city. The organization is planning to hold a peaceful protest to raise awareness about the issue. You have been asked to participate in the protest.",
+    "title": "As a member of the organization, what would you do in the above-mentioned situation?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-8.jpg",
+    "imageCaption": "In 2011, the United Nations certified Delhi Metro as the first metro-rail-based system to get carbon credits worth 47 crore annually for seven years.",
+    "karmaAttribute": "mindfulness",
+    "options": [
+      {
+        "score": 1,
+        "description": "I  would participate in the protest after understanding the reasons behind the protest and analysing its impact on community."
+      },
+      {
+        "score": 0,
+        "description": "I would be hesitant to participate in the protest because I avoid controversial confrontations"
+      },
+      {
+        "score": 0,
+        "description": "I would participate in the protest without much thought or consideration for the issue at hand. I might even get carried away with the emotions of the crowd and lose sight of the purpose of the protest."
+      },
+      {
+        "score": 0,
+        "description": "I don't believe in protests or activism, and I would not participate in the protest. I think there are other ways to address social issues and public policies that are more effective and less confrontational."
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "title": "Which of the following options do you consider as an authentic behavior?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-9.jpg",
+    "imageCaption": "Annually, Merriam-Webster highlights the most-searched term as its Word of the Year. In 2023, the chosen word was \"authentic.\"",
+    "karmaAttribute": "authenticity",
+    "options": [
+      {
+        "score": 0,
+        "description": "Deciding course of action based on others"
+      },
+      {
+        "score": 0,
+        "description": "Actions aligned with one’s values and beliefs"
+      },
+      {
+        "score": 1,
+        "description": "Change of value-based actions with a change of peers"
+      },
+      {
+        "score": 0,
+        "description": "Compromising personal values and beliefs for convenience"
+      }
+    ]
+  },
+  {
+    "type": "mcq",
+    "situation": "Consider you're at a higher position in a tech company, you're about to launch a new product. Unfortunately, the product failed to meet expectations. As a result, the company suffered a significant loss. Despite your colleagues support and motivation, you feel that the product failed because you didn't plan right. You feel that you let down the company and its stakeholders.",
+    "title": "As a high-level employee, what would you do in the above -mentioned situation?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-2-10.jpg",
+    "imageCaption": "According to Brimco's report, companies with robust leadership and positive cultures outperform their competitors by 20%.",
+    "karmaAttribute": "authenticity",
+    "options": [
+      {
+        "score": 0,
+        "description": "You will resign from the tech company since it's the best suitable course of action."
+      },
+      {
+        "score": 0,
+        "description": "You will not resign and blame it on external factors."
+      },
+      {
+        "score": 1,
+        "description": "You will not focus on this failure, understand where you went wrong, and keep working towards making better products."
+      },
+      {
+        "score": 0,
+        "description": "You will try to analyze where your staff went wrong, and take actions against the responsible person."
+      }
+    ]
+  }
+]

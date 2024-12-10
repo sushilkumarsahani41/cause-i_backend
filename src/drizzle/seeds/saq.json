@@ -1,0 +1,37 @@
+[
+  {
+    "type": "saq",
+    "title": "What motivates individuals to perform acts of kindness.",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-3-1.jpg",
+    "imageCaption": "In a recent Forbes study, 74% of respondents emphasized the significance of fostering a kind workplace community.",
+    "karmaAttribute": "kindness"
+  },
+  {
+    "type": "saq",
+    "title": "What is the motivation behind your selfless acts?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-3-2.jpg",
+    "imageCaption": "Generation Z is driven to make a positive impact, with 25% actively volunteering, 33% donating money to charity, and 60% striving to make a difference in the world.",
+    "karmaAttribute": "altruism"
+  },
+  {
+    "type": "saq",
+    "title": "Can you specify some ways you could/would use to promote equality for everyone?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-3-3.jpg",
+    "imageCaption": "In a recent Forbes study, 74% of respondents emphasized the significance of fostering a kind workplace community.",
+    "karmaAttribute": "righteousness"
+  },
+  {
+    "type": "saq",
+    "title": "What would you do to become a more responsible citizen?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-3-4.jpg",
+    "imageCaption": "In the Deloitte Global 2023 LGBT+ Inclusion @ Work Survey, 42% reported encountering non-inclusive behaviors at work, nearly half linking them to their sexual orientation or gender identity.",
+    "karmaAttribute": "mindfulness"
+  },
+  {
+    "type": "saq",
+    "title": "What personal values do you practice in your social actions?",
+    "imageUrl": "https://impresario-cdn-public.s3.ap-south-1.amazonaws.com/question-image/question-3-5.jpg",
+    "imageCaption": "According to the Pew Research Center, 62.8 per cent of eligible voters (and 94.1 per cent of registered voters) performed their civic duty during the United States’s 2020 election cycle. That’s an improvement from 57.2 per cent of eligible people voting in the 2012 election,",
+    "karmaAttribute": "authenticity"
+  }
+]

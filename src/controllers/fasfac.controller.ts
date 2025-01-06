@@ -15,36 +15,34 @@ import {
   DeleteFasfacCauseDto,
   FasfacCauseDto,
   UpdateFasfacCauseDto
-} from '@/dtos/fasfac.dto'
-import { Public } from '@/guards/auth.guard'
-import { ApiResponse, ApiTags } from '@nestjs/swagger'
+} from '@/dtos/fasfac-causes.dto'
+import { ApiBearerAuth, ApiResponse, ApiTags } from '@nestjs/swagger'
 
 @ApiTags('Causes')
-@Public()
 @Controller('cause')
-// @ApiBearerAuth()
+@ApiBearerAuth()
 export class FasfacCauseController {
   constructor(private readonly fasfacCauseService: FasfacCauseService) {}
 
-  @Post('create')
+  @Post()
   @ApiResponse({ status: HttpStatus.CREATED, type: FasfacCauseDto })
   async createCause(@Body() createFasfacCauseDto: CreateFasfacCauseDto) {
     return this.fasfacCauseService.createCause(createFasfacCauseDto)
   }
 
-  @Get('getAll')
+  @Get()
   @ApiResponse({ status: HttpStatus.OK, type: FasfacCauseDto })
   async findAll() {
     return this.fasfacCauseService.findAll()
   }
 
-  @Get('get/:id')
+  @Get(':id')
   @ApiResponse({ status: HttpStatus.OK, type: FasfacCauseDto })
   async findOne(@Param('id') id: number) {
     return this.fasfacCauseService.findOne(id)
   }
 
-  @Put('update/:id')
+  @Put(':id')
   @ApiResponse({ status: HttpStatus.OK, type: FasfacCauseDto })
   async update(
     @Param('id') id: number,
@@ -53,7 +51,7 @@ export class FasfacCauseController {
     return this.fasfacCauseService.update(id, updateFasfacCauseDto)
   }
 
-  @Delete('delete/:id')
+  @Delete(':id')
   @ApiResponse({ status: HttpStatus.OK, type: DeleteFasfacCauseDto })
   @HttpCode(HttpStatus.NO_CONTENT)
   async delete(@Param('id') id: number) {

@@ -5,7 +5,8 @@ import {
   AnalyticsController,
   SeederController,
   SurveyController,
-  FasfacCauseController
+  FasfacCauseController,
+  FasfacUserPrefsController
 } from '@/controllers'
 import {
   SurveyService,
@@ -19,12 +20,14 @@ import { EmailService } from './services/email.service'
 import { AnalyticsService } from './services/analytics.service'
 import { SeederService } from './services/seeder.service'
 import { FasfacCauseService } from '@/services/fasfac-cause.service'
+import { FasfacUserPrefsService } from '@/services/fasfac-user.service'
 
 @Module({
   imports: [],
   controllers: [
     AppController,
     FasfacCauseController,
+    FasfacUserPrefsController,
     SurveyController,
     AnalyticsController,
     SeederController
@@ -39,6 +42,7 @@ import { FasfacCauseService } from '@/services/fasfac-cause.service'
     EmailService,
     AppService,
     FasfacCauseService,
+    FasfacUserPrefsService,
     SurveyService,
     AnalyticsService,
     ScoreCalculationService,

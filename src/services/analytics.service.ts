@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common'
 import { authDb, db } from '@/drizzle/db'
 import { FeedbackReportDto } from '@/dtos'
-import _ from 'lodash'
 
 @Injectable()
 export class AnalyticsService {

@@ -194,10 +194,11 @@ export const fasfacCause = pgTable(
     id: serial('id').primaryKey().notNull(),
     name: varchar('name').notNull(),
     description: varchar('description').notNull(),
+    colour: varchar('colour'),
     hindiName: varchar('name_hindi'),
     descriptionHindi: varchar('description_hindi'),
-    createdAt: timestamp('created_at', { withTimezone: true, mode: 'string' }),
-    updatedAt: timestamp('updated_at', { withTimezone: true, mode: 'string' })
+    createdAt: timestamp('created_at').defaultNow(),
+    updatedAt: timestamp('updated_at').defaultNow()
   },
   (table) => {
     return {

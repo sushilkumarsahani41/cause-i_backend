@@ -1,4 +1,4 @@
-import { ApiProperty, ApiTags } from "@nestjs/swagger";
+import { ApiProperty } from '@nestjs/swagger'
 import { IsString, IsNotEmpty, IsOptional } from 'class-validator'
 
 export class CreateFasfacCauseDto {
@@ -35,12 +35,12 @@ export class CreateFasfacCauseDto {
   descriptionHindi?: string
 
   @ApiProperty()
-  @IsNotEmpty()
+  @IsOptional()
   @IsString()
   updatedAt?: string // Optional if `defaultNow` is used
 
   @ApiProperty()
-  @IsNotEmpty()
+  @IsOptional()
   @IsString()
   createdAt?: string // O
 }
@@ -69,6 +69,20 @@ export class UpdateFasfacCauseDto {
   @IsOptional()
   @IsString()
   nameHindi?: string
+
+  @ApiProperty({
+    description: 'Image URl',
+  })
+  @IsOptional()
+  @IsString()
+  image?: string
+
+  @ApiProperty({
+    description: 'Colour In #FFFFFF',
+  })
+  @IsOptional()
+  @IsString()
+  colour?: string
 
   @ApiProperty({
     description: 'Description of the cause in Hindi',

@@ -2,7 +2,10 @@ import { Injectable, NotFoundException } from '@nestjs/common'
 import { db } from '@/drizzle/db'
 import { eq } from 'drizzle-orm'
 import { fasfacCause } from '@/drizzle/schema'
-import { CreateFasfacCauseDto, UpdateFasfacCauseDto } from '@/dtos/fasfac.dto'
+import {
+  CreateFasfacCauseDto,
+  UpdateFasfacCauseDto
+} from '@/dtos/fasfac-causes.dto'
 
 @Injectable()
 export class FasfacCauseService {

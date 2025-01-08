@@ -71,14 +71,14 @@ export class UpdateFasfacCauseDto {
   nameHindi?: string
 
   @ApiProperty({
-    description: 'Image URl',
+    description: 'Image URl'
   })
   @IsOptional()
   @IsString()
-  image?: string
+  imageUrl?: string
 
   @ApiProperty({
-    description: 'Colour In #FFFFFF',
+    description: 'Colour In #FFFFFF'
   })
   @IsOptional()
   @IsString()
@@ -131,6 +131,18 @@ export class FasfacCauseDto {
   })
   @IsString()
   descriptionHindi: string
+
+  @ApiProperty({
+    description: 'Image URl'
+  })
+  @IsString()
+  imageUrl?: string
+
+  @ApiProperty({
+    description: 'Colour In #FFFFFF'
+  })
+  @IsString()
+  colour?: string
 
   @ApiProperty({
     description: 'Timestamp when the cause was created',

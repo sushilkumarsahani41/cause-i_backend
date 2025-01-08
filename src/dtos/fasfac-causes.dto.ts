@@ -133,7 +133,7 @@ export class FasfacCauseDto {
   descriptionHindi: string
 
   @ApiProperty({
-    description: 'Image URl'
+    description: 'Image URL'
   })
   @IsString()
   imageUrl?: string

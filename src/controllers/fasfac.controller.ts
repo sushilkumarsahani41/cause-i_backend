@@ -7,8 +7,8 @@ import {
   Body,
   Param,
   HttpStatus,
-  HttpCode
-} from '@nestjs/common'
+  HttpCode, Patch
+} from "@nestjs/common";
 import { FasfacCauseService } from '@/services/fasfac-cause.service'
 import {
   CreateFasfacCauseDto,
@@ -42,7 +42,7 @@ export class FasfacCauseController {
     return this.fasfacCauseService.findOne(id)
   }
 
-  @Put(':id')
+  @Patch(':id')
   @ApiResponse({ status: HttpStatus.OK, type: FasfacCauseDto })
   async update(
     @Param('id') id: number,

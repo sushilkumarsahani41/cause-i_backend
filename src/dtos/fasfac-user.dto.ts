@@ -96,3 +96,86 @@ export class UpdateFasfacUserPrefsDto {
   @IsString()
   updatedAt?: string
 }
+
+
+export class FasfacUserPrefsDto {
+  @ApiProperty({ description: 'ID of the user', example: 123 })
+  @IsNumber()
+  userId: number
+
+  @ApiProperty({ description: 'ID of the cause', example: 456 })
+  @IsNumber()
+  causeId: number
+
+  @ApiProperty({
+    description: 'Amount pledged by the user',
+    example: 100.5,
+    required: false
+  })
+  @IsNumber()
+  amountPledged?: number
+
+  @ApiProperty({
+    description: 'Full name of the user',
+    example: 'John Doe',
+    required: false
+  })
+  @IsString()
+  fullName?: string
+
+  @ApiProperty({
+    description: 'Phone number of the user',
+    example: '+1234567890',
+    required: false
+  })
+  @IsString()
+  phoneNumber?: string
+
+  @ApiProperty({ description: 'Age of the user', example: 30, required: false })
+  @IsNumber()
+  age?: number
+
+  @ApiProperty({
+    description: 'Gender of the user',
+    example: 'Male',
+    required: false
+  })
+  @IsString()
+  gender?: string
+
+  @ApiProperty({
+    description: 'Nationality of the user',
+    example: 'Indian',
+    required: false
+  })
+  @IsString()
+  nationality?: string
+
+  @ApiProperty({
+    description: 'Profession of the user',
+    example: 'Engineer',
+    required: false
+  })
+  @IsString()
+  profession?: string
+
+  @ApiProperty({
+    description: 'Payment ID for the transaction',
+    example: 'pay_12345',
+    required: false
+  })
+  @IsString()
+  paymentId?: string
+
+  @ApiProperty({
+    description: 'Last Updated Time',
+  })
+  @IsString()
+  updatedAt?: string
+
+  @ApiProperty({
+    description: 'Created Time',
+  })
+  @IsString()
+  createdAt?: string
+}

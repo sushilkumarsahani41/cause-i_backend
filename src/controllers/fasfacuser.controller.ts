@@ -9,11 +9,10 @@ import {
 } from '@nestjs/swagger'
 import { FasfacUserPrefsService } from '@/services/fasfac-user.service'
 import {
-  BaseFasfacUserPrefsDto,
-  CreateFasfacUserPrefsDto, FasfacUserPrefsDto,
+  CreateFasfacUserPrefsDto,
+  FasfacUserPrefsDto,
   UpdateFasfacUserPrefsDto
-} from "@/dtos/fasfac-user.dto";
-
+} from '@/dtos/fasfac-user.dto'
 
 @ApiTags('User Preferences')
 @Controller('cause-user-prefs')

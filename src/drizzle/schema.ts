@@ -11,8 +11,9 @@ import {
   boolean,
   primaryKey,
   index,
-  json
-} from 'drizzle-orm/pg-core'
+  json,
+  numeric
+} from "drizzle-orm/pg-core";
 import { users } from '@/drizzle/auth-schema'
 
 export const questionsTypeEnum = pgEnum('questions_type_enum', [
@@ -186,6 +187,20 @@ export const responses = pgTable(
 )
 
 // **** Sushil Code Start ****
+
+export const payments = pgTable('payments', {
+  mihpayid: text('mihpayid'),
+  txnid: text('txnid').primaryKey(),
+  amount: numeric('amount'),
+  productinfo: text('productinfo'),
+  firstname: text('firstname'),
+  email: text('email'),
+  status: text('status'),
+  bank_ref_num: text('bank_ref_num'),
+  phone: text('phone'),
+  mode: text('mode'),
+  hash: text('hash')
+});
 
 //FasFac Causes
 export const fasfacCause = pgTable(

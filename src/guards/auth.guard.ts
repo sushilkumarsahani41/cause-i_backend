@@ -55,3 +55,4 @@ export class AuthGuard implements CanActivate {
 
 export const IS_PUBLIC_KEY = 'isPublic'
 export const Public = () => SetMetadata(IS_PUBLIC_KEY, true)
+export const Private = () => SetMetadata(IS_PUBLIC_KEY, false)

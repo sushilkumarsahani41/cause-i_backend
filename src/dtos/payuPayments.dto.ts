@@ -75,3 +75,62 @@ export class CreatePaymentDto {
   @IsString()
   hash: string
 }
+
+
+export class PaymentDto {
+  @ApiProperty({
+    description: 'PayU Payment ID',
+    example: '403993715533138898'
+  })
+  @IsString()
+  mihpayid: string
+
+  @ApiProperty({ description: 'Transaction ID', example: 'IM_1736439184693' })
+  @IsString()
+  txnid: string
+
+  @ApiProperty({ description: 'Payment Amount', example: '5250.00' })
+  @IsNumberString()
+  amount: string
+
+  @ApiProperty({
+    description: 'Product Information',
+    example: 'Donation on Social Cause'
+  })
+  @IsString()
+  productinfo: string
+
+  @ApiProperty({ description: 'First Name', example: 'Sushilkumar Sahani' })
+  @IsString()
+  firstname: string
+
+  @ApiProperty({ description: 'Email Address', example: 'undefined' })
+  @IsString()
+  email: string
+
+  @ApiProperty({ description: 'Payment Status', example: 'success' })
+  @IsString()
+  status: string
+
+  @ApiProperty({
+    description: 'Bank Reference Number',
+    example: '660031722674711000'
+  })
+  @IsString()
+  bank_ref_num: string
+
+  @ApiProperty({ description: 'Phone Number', example: '9307918749' })
+  @IsString()
+  phone: string
+
+  @ApiProperty({ description: 'Payment Mode', example: 'DC' })
+  @IsString()
+  mode: string
+
+  @ApiProperty({
+    description: 'Payment Hash',
+    example: 'e441573e3a94719b7337c22f69d47716...'
+  })
+  @IsString()
+  hash: string
+}

@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Res } from '@nestjs/common'
+import { Body, Controller, Get, Param, Post, Redirect, Res } from "@nestjs/common";
 import { ApiTags } from '@nestjs/swagger'
 import { CreatePaymentDto } from '@/dtos/payuPayments.dto'
 import { PaymentService } from '@/services/payuPayment.service'
@@ -11,12 +11,14 @@ export class PaymentController {
 
   @Post()
   @Public()
+  @Redirect('https://docs.nestjs.com', 301)
   async createPayment(@Body() createPaymentDto: CreatePaymentDto, @Res() res) {
     await this.paymentService.createPayment(createPaymentDto)
     // Redirect to confirmation page or success URL
-    return res.redirect(
-      'https://www.convertsimple.com/convert-query-string-to-json/'
-    )
+    return {
+      status: 201,
+      message: 'Payment created successfully.'
+    }
   }
 
   @Get()

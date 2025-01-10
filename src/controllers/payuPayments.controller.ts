@@ -22,7 +22,7 @@ export class PaymentController {
     description: 'PayU Payment Response',
     type: CreatePaymentDto
   })
-  @Redirect('https://uat.fasfac.cause-i.ai', 302)
+  @Redirect('https://uat.fasfac.cause-i.ai/verify-payment', 302)
   async createPayment(@Body() createPaymentDto: CreatePaymentDto) {
     await this.paymentService.createPayment(createPaymentDto)
     // Redirect to confirmation page or success URL

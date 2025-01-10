@@ -23,13 +23,11 @@ export class PaymentController {
     description: 'PayU Payment Response',
     type: CreatePaymentDto
   })
-  @Redirect('https://docs.nestjs.com', 301)
+  @Redirect('https://docs.nestjs.com', 302)
   async createPayment(@Body() createPaymentDto: CreatePaymentDto, @Res() res) {
     await this.paymentService.createPayment(createPaymentDto)
     // Redirect to confirmation page or success URL
-    return res.redirect(
-      `https://uat.fasfac.cause-i.ai/verify-payment?txnid=${createPaymentDto.txnid}`
-    )
+    return
   }
 
   @Get()

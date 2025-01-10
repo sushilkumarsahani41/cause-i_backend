@@ -4,7 +4,6 @@ import {
   Get,
   Param,
   Post,
-  Redirect,
   Res
 } from '@nestjs/common'
 import { ApiResponse, ApiTags } from '@nestjs/swagger'

@@ -3,9 +3,9 @@ import {
   Controller,
   Get,
   Param,
-  Post,
+  Post, Redirect,
   Res
-} from '@nestjs/common'
+} from "@nestjs/common";
 import { ApiResponse, ApiTags } from '@nestjs/swagger'
 import { CreatePaymentDto, PaymentDto } from '@/dtos/payuPayments.dto'
 import { PaymentService } from '@/services/payuPayment.service'
@@ -22,13 +22,11 @@ export class PaymentController {
     description: 'PayU Payment Response',
     type: CreatePaymentDto
   })
-  // @Redirect('https://docs.nestjs.com', 302)
-  async createPayment(@Body() createPaymentDto: CreatePaymentDto, @Res() res) {
+  @Redirect('https://uat.fasfac.cause-i.ai', 302)
+  async createPayment(@Body() createPaymentDto: CreatePaymentDto) {
     await this.paymentService.createPayment(createPaymentDto)
     // Redirect to confirmation page or success URL
-    return res.redirect(
-      `https://uat.fasfac.cause-i.ai/verify-payment?txnid=${createPaymentDto.txnid}`
-    )
+    return
   }
 
   @Get()

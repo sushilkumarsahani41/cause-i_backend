@@ -1,11 +1,4 @@
-import {
-  Body,
-  Controller,
-  Get,
-  Param,
-  Post, Redirect,
-  Res
-} from "@nestjs/common";
+import { Body, Controller, Get, Param, Post, Redirect } from '@nestjs/common'
 import { ApiResponse, ApiTags } from '@nestjs/swagger'
 import { CreatePaymentDto, PaymentDto } from '@/dtos/payuPayments.dto'
 import { PaymentService } from '@/services/payuPayment.service'

@@ -1,4 +1,14 @@
-import { Controller, Get, Post, Patch, Param, Body } from '@nestjs/common'
+import {
+  Controller,
+  Get,
+  Post,
+  Patch,
+  Param,
+  Body,
+  HttpStatus,
+  BadRequestException,
+  NotFoundException
+} from '@nestjs/common'
 import {
   ApiTags,
   ApiOperation,
@@ -25,52 +35,82 @@ export class FasfacUserPrefsController {
   @Post()
   @ApiOperation({ summary: 'Create a new user preference' })
   @ApiResponse({
-    status: 201,
-    type: CreateFasfacUserPrefsDto,
+    status: HttpStatus.CREATED,
+    type: FasfacUserPrefsDto,
     description: 'User preference created successfully'
   })
-  @ApiResponse({ status: 400, description: 'Invalid input' })
+  @ApiResponse({ status: HttpStatus.BAD_REQUEST, description: 'Invalid input' })
   @ApiBody({ type: CreateFasfacUserPrefsDto })
   async create(@Body() createFasfacUserPrefsDto: CreateFasfacUserPrefsDto) {
-    return this.fasfacUserPrefsService.create(createFasfacUserPrefsDto)
+    // Ensure required fields are present
+    if (!createFasfacUserPrefsDto.userId || !createFasfacUserPrefsDto.causeId) {
+      throw new BadRequestException('User ID and Cause ID are required')
+    }
+
+    try {
+      return await this.fasfacUserPrefsService.create(createFasfacUserPrefsDto)
+    } catch (error) {
+      throw new BadRequestException(
+        `Error creating user preference: ${error.message}`
+      )
+    }
   }
 
   @Get()
-  @ApiOperation({ summary: 'Get all user preferences' })
+  @ApiOperation({ summary: 'Retrieve all user preferences' })
   @ApiResponse({
-    status: 200,
+    status: HttpStatus.OK,
     type: FasfacUserPrefsDto,
-    description: 'List of user preferences'
+    isArray: true,
+    description: 'List of all user preferences'
   })
   async findAll() {
     return this.fasfacUserPrefsService.findAll()
   }
 
   @Get(':id')
-  @ApiOperation({ summary: 'Get a specific user preference by ID' })
+  @ApiOperation({ summary: 'Retrieve a specific user preference by ID' })
   @ApiResponse({
-    status: 200,
+    status: HttpStatus.OK,
     type: FasfacUserPrefsDto,
     description: 'User preference found'
   })
-  @ApiResponse({ status: 404, description: 'User preference not found' })
+  @ApiResponse({
+    status: HttpStatus.NOT_FOUND,
+    description: 'User preference not found'
+  })
+  @ApiResponse({
+    status: HttpStatus.BAD_REQUEST,
+    description: 'Invalid ID format'
+  })
   @ApiParam({
     name: 'id',
     description: 'ID of the user preference',
     type: Number
   })
   async findOne(@Param('id') id: number) {
-    return this.fasfacUserPrefsService.findOne(id)
+    if (isNaN(id)) throw new BadRequestException('Invalid user preference ID')
+    const userPref = await this.fasfacUserPrefsService.findOne(id)
+    if (!userPref)
+      throw new NotFoundException(`User preference with ID ${id} not found`)
+    return userPref
   }
 
   @Patch(':id')
   @ApiOperation({ summary: 'Update a user preference by ID' })
   @ApiResponse({
-    status: 200,
+    status: HttpStatus.OK,
     type: FasfacUserPrefsDto,
     description: 'User preference updated successfully'
   })
-  @ApiResponse({ status: 404, description: 'User preference not found' })
+  @ApiResponse({
+    status: HttpStatus.NOT_FOUND,
+    description: 'User preference not found'
+  })
+  @ApiResponse({
+    status: HttpStatus.BAD_REQUEST,
+    description: 'Invalid update data'
+  })
   @ApiParam({
     name: 'id',
     description: 'ID of the user preference',
@@ -81,6 +121,13 @@ export class FasfacUserPrefsController {
     @Param('id') id: number,
     @Body() updateFasfacUserPrefsDto: UpdateFasfacUserPrefsDto
   ) {
-    return this.fasfacUserPrefsService.update(id, updateFasfacUserPrefsDto)
+    if (isNaN(id)) throw new BadRequestException('Invalid user preference ID')
+    const updatedPref = await this.fasfacUserPrefsService.update(
+      id,
+      updateFasfacUserPrefsDto
+    )
+    if (!updatedPref)
+      throw new NotFoundException(`User preference with ID ${id} not found`)
+    return updatedPref
   }
 }

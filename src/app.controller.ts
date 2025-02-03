@@ -1,45 +1,155 @@
-import { Body, Controller, Get, HttpStatus, Post, Req } from '@nestjs/common'
-import { ApiBearerAuth, ApiResponse } from '@nestjs/swagger'
+import {
+  Body,
+  Controller,
+  Get,
+  HttpStatus,
+  Post,
+  Req,
+  BadRequestException,
+  UnauthorizedException,
+  InternalServerErrorException
+} from '@nestjs/common'
+import {
+  ApiBearerAuth,
+  ApiResponse,
+  ApiTags,
+  ApiOperation
+} from '@nestjs/swagger'
 import { ScaleDto, UpdateScaleDto } from '@/dtos'
 import { AppService } from './app.service'
 import { FastifyRequest } from 'fastify'
 import { CauseLevelDto } from './dtos/cause-level.dto'
 
+@ApiTags('Application')
 @Controller()
 @ApiBearerAuth()
 export class AppController {
   constructor(private readonly appService: AppService) {}
+
   @Get('scale')
-  @ApiResponse({ status: HttpStatus.OK, type: ScaleDto })
+  @ApiOperation({ summary: 'Retrieve user’s karma scale' })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: ScaleDto,
+    description: 'Successfully retrieved user’s karma scale'
+  })
+  @ApiResponse({
+    status: HttpStatus.UNAUTHORIZED,
+    description: 'User is not authenticated'
+  })
+  @ApiResponse({
+    status: HttpStatus.INTERNAL_SERVER_ERROR,
+    description: 'Server error occurred'
+  })
   getKarmaScale(@Req() request: FastifyRequest) {
-    const userId = request.user.id
-    return this.appService.getKarmaScale(userId)
+    if (!request.user) {
+      throw new UnauthorizedException('User is not authenticated')
+    }
+    try {
+      return this.appService.getKarmaScale(request.user.id)
+    } catch (error) {
+      throw new InternalServerErrorException(
+        `Error retrieving karma scale: ${error.message}`
+      )
+    }
   }
 
   @Get('cause-level')
-  @ApiResponse({ status: HttpStatus.OK, type: CauseLevelDto })
+  @ApiOperation({ summary: 'Retrieve user’s cause level' })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: CauseLevelDto,
+    description: 'Successfully retrieved user’s cause level'
+  })
+  @ApiResponse({
+    status: HttpStatus.UNAUTHORIZED,
+    description: 'User is not authenticated'
+  })
+  @ApiResponse({
+    status: HttpStatus.INTERNAL_SERVER_ERROR,
+    description: 'Server error occurred'
+  })
   getCauseLevel(@Req() request: FastifyRequest) {
-    const userId = request.user.id
-    return this.appService.getCauseLevel(userId)
+    if (!request.user) {
+      throw new UnauthorizedException('User is not authenticated')
+    }
+    try {
+      return this.appService.getCauseLevel(request.user.id)
+    } catch (error) {
+      throw new InternalServerErrorException(
+        `Error retrieving cause level: ${error.message}`
+      )
+    }
   }
 
   @Post('scale')
-  @ApiResponse({ status: HttpStatus.OK, type: UpdateScaleDto })
+  @ApiOperation({
+    summary: 'Update the user’s current question ID on the scale'
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: UpdateScaleDto,
+    description: 'Successfully updated the scale'
+  })
+  @ApiResponse({
+    status: HttpStatus.BAD_REQUEST,
+    description: 'Invalid request body'
+  })
+  @ApiResponse({
+    status: HttpStatus.UNAUTHORIZED,
+    description: 'User is not authenticated'
+  })
+  @ApiResponse({
+    status: HttpStatus.INTERNAL_SERVER_ERROR,
+    description: 'Server error occurred'
+  })
   updateScaleCurrentQuestionId(
     @Req() request: FastifyRequest,
     @Body() body: UpdateScaleDto
   ) {
-    const userId = request.user.id
-    return this.appService.updateScaleCurrentQuestionId(
-      userId,
-      body.currentQuestionId
-    )
+    if (!request.user) {
+      throw new UnauthorizedException('User is not authenticated')
+    }
+    if (!body.currentQuestionId) {
+      throw new BadRequestException('Current question ID is required')
+    }
+    try {
+      return this.appService.updateScaleCurrentQuestionId(
+        request.user.id,
+        body.currentQuestionId
+      )
+    } catch (error) {
+      throw new InternalServerErrorException(
+        `Error updating scale: ${error.message}`
+      )
+    }
   }
 
   @Post('send-result-email')
-  @ApiResponse({ status: HttpStatus.OK, type: ScaleDto })
+  @ApiOperation({ summary: 'Send the user’s result via email' })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: ScaleDto,
+    description: 'Email sent successfully'
+  })
+  @ApiResponse({
+    status: HttpStatus.UNAUTHORIZED,
+    description: 'User is not authenticated'
+  })
+  @ApiResponse({
+    status: HttpStatus.INTERNAL_SERVER_ERROR,
+    description: 'Error sending result email'
+  })
   sendResultEmail(@Req() request: FastifyRequest) {
-    const userId = request.user.id
-    return this.appService.sendResultEmail(userId)
+    if (!request.user) {
+      throw new UnauthorizedException('User is not authenticated')
+    }
+    try {
+      return this.appService.sendResultEmail(request.user.id)
+    } catch (error) {
+      throw new InternalServerErrorException(
+        `Error sending result email: ${error.message}`
+      )
+    }
   }
 }

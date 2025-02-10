@@ -118,10 +118,3 @@ export class FasfacCauseDto {
 
 }
 
-export class DeleteFasfacCauseDto {
-  @ApiProperty({
-    description: 'Cause with id id deleted',
-    example: 'Cause with id 1 deleted'
-  })
-  message: string
-}

@@ -19,30 +19,19 @@ export class CreateFasfacCauseDto {
   description: string
 
   @ApiProperty({
-    description: 'Name of the cause in Hindi',
-    example: 'सभी के लिए शिक्षा'
+    description: 'Image URl'
   })
   @IsOptional()
   @IsString()
-  nameHindi?: string
+  imageUrl?: string
 
   @ApiProperty({
-    description: 'Description of the cause in Hindi',
-    example: 'वंचित बच्चों को मुफ्त शिक्षा प्रदान करना।'
+    description: 'Short description of the cause',
+    example: 'A brief overview of the cause.'
   })
   @IsOptional()
   @IsString()
-  descriptionHindi?: string
-
-  @ApiProperty()
-  @IsOptional()
-  @IsString()
-  updatedAt?: string // Optional if `defaultNow` is used
-
-  @ApiProperty()
-  @IsOptional()
-  @IsString()
-  createdAt?: string // O
+  shortDescription?: string
 }
 
 export class UpdateFasfacCauseDto {
@@ -63,12 +52,12 @@ export class UpdateFasfacCauseDto {
   description?: string
 
   @ApiProperty({
-    description: 'Name of the cause in Hindi',
-    example: 'सभी के लिए शिक्षा'
+    description: 'Short description of the cause',
+    example: 'A brief overview of the cause.'
   })
   @IsOptional()
   @IsString()
-  nameHindi?: string
+  shortDescription?: string
 
   @ApiProperty({
     description: 'Image URl'
@@ -83,16 +72,6 @@ export class UpdateFasfacCauseDto {
   @IsOptional()
   @IsString()
   colour?: string
-
-  @ApiProperty({
-    description: 'Description of the cause in Hindi',
-    example: 'वंचित बच्चों को मुफ्त शिक्षा प्रदान करना।'
-  })
-  @IsOptional()
-  @IsString()
-  descriptionHindi?: string
-
-  updatedAt?: string // Optional if `defaultNow` is used
 }
 
 export class FasfacCauseDto {
@@ -119,18 +98,11 @@ export class FasfacCauseDto {
   description: string
 
   @ApiProperty({
-    description: 'Name of the cause in Hindi',
-    example: 'सभी के लिए शिक्षा'
+    description: 'Short description of the cause',
+    example: 'A brief overview of the cause.'
   })
   @IsString()
-  nameHindi: string
-
-  @ApiProperty({
-    description: 'Description of the cause in Hindi',
-    example: 'वंचित बच्चों को मुफ्त शिक्षा प्रदान करना।'
-  })
-  @IsString()
-  descriptionHindi: string
+  shortDescription?: string
 
   @ApiProperty({
     description: 'Image URL'
@@ -144,17 +116,6 @@ export class FasfacCauseDto {
   @IsString()
   colour?: string
 
-  @ApiProperty({
-    description: 'Timestamp when the cause was created',
-    example: '2024-01-01T12:00:00Z'
-  })
-  createdAt: string
-
-  @ApiProperty({
-    description: 'Timestamp when the cause was last updated',
-    example: '2024-01-02T15:30:00Z'
-  })
-  updatedAt: string
 }
 
 export class DeleteFasfacCauseDto {

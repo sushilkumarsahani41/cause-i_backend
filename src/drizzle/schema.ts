@@ -210,10 +210,8 @@ export const fasfacCause = pgTable(
     name: varchar('name').notNull(),
     description: varchar('description').notNull(),
     colour: varchar('colour'),
-    hindiName: varchar('name_hindi'),
-    descriptionHindi: varchar('description_hindi'),
-    createdAt: timestamp('created_at').defaultNow(),
-    updatedAt: timestamp('updated_at').defaultNow()
+    shortDes: varchar('shortDes'),
+    imageUrl: varchar('imageUrl'),
   },
   (table) => {
     return {
